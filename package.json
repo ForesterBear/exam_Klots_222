@@ -1,0 +1,21 @@
+{
+  "name": "state-pattern-exam",
+  "version": "1.0.0",
+  "description": "State behavioral design pattern implementation in TypeScript",
+  "main": "dist/examples/example.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/examples/example.js",
+    "dev": "ts-node src/examples/example.ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["design-pattern", "state", "behavioral"],
+  "author": "",
+  "license": "MIT"
+}
